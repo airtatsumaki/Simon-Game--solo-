@@ -1,0 +1,53 @@
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+body{
+  text-align: center;
+  background-color: #011f3f;
+}
+
+.wrong{
+  background-color: #ff4747;
+}
+
+.container{
+  display: block;
+  text-align: center;
+  margin: auto;
+  /* width: 600px; if a width is a set the .btn's do not wrap on small windows*/ 
+}
+
+.btn{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 10px solid white;
+}
+
+.pressed{
+  background-color: grey !important;
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
